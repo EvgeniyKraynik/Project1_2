@@ -14,7 +14,7 @@ public class UserDaoHibernateImpl implements UserDao {
 
     }
 
-    private Transaction transaction;
+    private static Transaction transaction;
 
     @Override
     public void createUsersTable() {
